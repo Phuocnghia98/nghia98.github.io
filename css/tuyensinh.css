@@ -1,0 +1,192 @@
+        /* category */
+        
+        .category-w {
+            border-bottom: 1px dashed #CFCFCF;
+        }
+        /* most-view */
+        
+        .most-view {
+            border: 1px solid #CFCFCF;
+            box-sizing: border-box;
+            margin-top: 30px;
+        }
+        
+        .most-view-name {
+            border-bottom: 3px solid #F0CB46;
+            width: 166px;
+            font-weight: bold;
+            font-size: 24px;
+            color: #1C476D;
+            margin-left: 10px;
+            display: block;
+            padding: 10px 0 3px 0;
+            margin-bottom: 20px;
+        }
+        
+        .most-view-list {
+            margin: 0 10px;
+            display: flex;
+            margin-bottom: 14px;
+        }
+        
+        .most-view-list-item {
+            border-bottom: 1px dashed #C4C4C4;
+        }
+        
+        .most-view-img {
+            min-width: 50px;
+            height: 50px;
+        }
+        
+        .most-view-content {
+            padding-left: 15px;
+            padding-bottom: 10px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #4A4A4A;
+            margin-bottom: 0;
+        }
+        /* enrollment */
+        
+        .enrollment {
+            margin-top: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .enrollment-col7 {
+            padding: 0 0;
+        }
+        
+        .enrollment-img {
+            max-width: 470px;
+            height: 336px;
+        }
+        
+        .enrollment-content {
+            display: block;
+        }
+        
+        .enrollment-date {
+            font-size: 16px;
+            color: #b3afaf;
+            display: block;
+            margin-bottom: -22px;
+        }
+        
+        .enrollment-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: justify;
+            color: #1C476D;
+        }
+        
+        .enrollment-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 23px;
+            text-align: justify;
+            color: #474747;
+            margin-top: 10px;
+        }
+        /* enrollment-notification */
+        
+        .enrollment-notification {
+            margin-top: 20px;
+            display: flex;
+        }
+        
+        .enrollment-notification-img {
+            max-width: 170px;
+            height: 140px;
+        }
+        
+        .enrollment-notification-content {
+            margin-left: 20px;
+        }
+        
+        .enrollment-notification-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: justify;
+            color: #1C476D;
+        }
+        
+        .enrollment-notification-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: justify;
+            color: #4A4A4A;
+            padding-top: 5px;
+        }
+        /* Tablet */
+        
+        @media (min-width: 740px) and (max-width: 1023px) {
+            .most-view-list-item {
+                padding-bottom: 10px;
+            }
+            .most-view-list {
+                align-items: center;
+            }
+            .row-w {
+                display: block;
+            }
+            .enrollment {
+                margin-top: 40px;
+            }
+            .enrollment-img {
+                width: 650px;
+                margin-left: 100px;
+            }
+            .enrollment-content {
+                margin-top: 25px;
+            }
+            .enrollment-notification {
+                margin-top: 10px;
+            }
+            .enrollment-content-col-5 {
+                padding-left: 0;
+            }
+        }
+        /* Tablet pro */
+        
+        @media (min-width: 1024px) and (max-width: 1366px) {
+            .enrollment {
+                padding-bottom: 0;
+            }
+            .enrollment-img {
+                max-width: 400px;
+                height: 336px;
+            }
+            .enrollment-text {
+                margin-top: 0;
+                margin-bottom: 6px;
+            }
+        }
+        /* Mobile */
+        
+        @media (max-width: 739px) {
+            .most-view-list-item {
+                padding-bottom: 10px;
+            }
+            .enrollment-text {
+                margin-bottom: 0;
+            }
+            .enrollment-content {
+                margin-top: 10px;
+            }
+            .enrollment-content-col-5 {
+                padding-left: 0;
+            }
+            .enrollment-notification-img {
+                height: 150px;
+            }
+        }
