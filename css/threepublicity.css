@@ -37,6 +37,10 @@
     box-sizing: border-box;
 } */
 
+.home-title {
+    z-index: 100;
+}
+
 .list-category {
     margin-top: 20px;
     background: #F4F6F8;
@@ -109,7 +113,6 @@
     text-align: justify;
     color: #4A4A4A;
     padding-left: 15px;
-    padding-bottom: 10px;
 }
 
 .training {
