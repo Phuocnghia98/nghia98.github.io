@@ -1,0 +1,172 @@
+/* enrollment-infomation */
+
+.enrollment-infomation {
+    margin-top: 20px;
+    border: 1px solid #CFCFCF;
+    box-sizing: border-box;
+}
+
+.infomation-name {
+    border-bottom: 3px solid #F0CB46;
+    width: 218px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C476D;
+    margin-left: 10px;
+    display: block;
+    padding: 10px 0 3px 0;
+    margin-bottom: 15px;
+}
+
+.infomation-list {
+    margin: 0 10px;
+}
+
+.infomation-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C476D;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.infomation-contetn {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #4b4b4b;
+    line-height: 16px;
+}
+
+
+/* contact-infomation */
+
+.contact-infomation {
+    margin-top: 30px;
+    border: 1px solid #1C476D;
+    box-sizing: border-box;
+}
+
+.contact-infomation-title {
+    border-bottom: 1px solid #CFCFCF;
+    width: 230px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1C476D;
+    margin-left: 10px;
+    display: block;
+    padding: 10px 0 10px 0;
+    margin-bottom: 15px;
+}
+
+.contact-address {
+    display: flex;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.contact-icon {
+    color: #1C476D;
+    font-size: 16px;
+}
+
+.contact-infomation-name {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #414040;
+    line-height: 14px;
+    padding-top: 2px;
+}
+
+
+/* most-view-name-w */
+
+.most-view-name-w {
+    border-bottom: 3px solid #F0CB46;
+    width: 150px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1C476D;
+    margin-left: 10px;
+    display: block;
+    padding: 10px 0 3px 0;
+    margin-bottom: 20px;
+}
+
+
+/* form */
+
+.personal-infomation {
+    margin-top: 20px;
+}
+
+.personal-infomation-title {
+    background: #4B7DA9;
+    color: #FFFFFF;
+    padding: 5px 0 5px 10px;
+    margin-bottom: 0;
+}
+
+.personal-infomation-content {
+    background: #F4F6F8;
+    padding: 30px 20px 30px 20px;
+}
+
+.academic-level {
+    padding-top: 10px;
+}
+
+.personal-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #1C476D;
+}
+
+.personal-title-w {
+    margin-top: 20px;
+}
+
+.check-label-w {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #4A4A4A;
+    margin-left: 5px;
+}
+
+.check-input-w {
+    width: 18px;
+    height: 18px;
+}
+
+.btn-register {
+    color: #FFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    float: right;
+}
+
+.btn-register:hover {
+    color: #4B7DA9;
+    animation: fadeIn ease-in 0.2s;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+    .infomation-name {
+        width: 180px;
+        font-size: 20px;
+    }
+    .contact-infomation-title {
+        width: 187px;
+    }
+}
