@@ -29,14 +29,6 @@
     color: #1C476D;
 }
 
-
-/* 
-.category-left {
-    background: #F4F6F8;
-    border: 1px solid #CFCFCF;
-    box-sizing: border-box;
-} */
-
 .home-title {
     z-index: 100;
 }
@@ -69,7 +61,6 @@
     border: 1px solid #CFCFCF;
     box-sizing: border-box;
     margin-top: 30px;
-    /* background: #E5E5E5; */
 }
 
 .category-notification-name {
@@ -366,7 +357,6 @@
     }
     .register-email {
         margin-bottom: 10px;
-        /* margin-left: 200px; */
     }
     .form-register {
         float: left;
